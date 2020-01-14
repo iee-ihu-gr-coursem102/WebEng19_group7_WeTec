@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+/*--- Start Nuno 5 Page Version Style --*/
+
+.navbar.always-solid {
+  background: rgba(0, 0, 0, 0.7)!important;
+}
+#title-heading {
+  background: url('img/title-background.png') no-repeat;
+  background-color: rgba(0, 0, 0, 0.1)!important;
+  width: 100%;
+  max-height: 7rem!important;
+  background-size: cover;
+  margin-top: 4rem;
+}
+#title-heading .row {
+  width: 100%!important;
+  padding: 1rem 2rem 2rem;
+}
+h3.title-heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 .8rem 0;
+}
+.title-heading-underline {
+  width: 5rem;
+  height: .2rem;
+  background-color: #1EBBA3;
+}
+.text-wetec {
+   color: #1EBBA3;
+}
+/* Remove white space under title heading
+#title-heading .row {
+  padding-bottom: 0;
+}
+*/
+/* Medium (md) devices (tablets) */
+@media (max-width: 767px) {
+  #title-heading {
+    background-image: url('img/title-background-mobile.png');
+  }
+}
+
+/*--- End Nuno 5 Page Version Style --*/
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+
+/*--- Nav Scrolling Offset --*/
+.offset:before {
+  height: 4rem;
+  margin-top: -4rem;
+  content: "";
+  display: block;
+}
+
+/*--- Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/*============= NAVIGATION =============*/
+
+.navbar {
+  padding: .7rem 1rem;
+  text-transform: uppercase;
+  font-size: .9rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  transition: background-color .5s ease 0s;
+}
+.navbar-brand img {
+  height: 2rem;
+}
+.svg-inline--fa.fa-w-14 {
+  color: white;
+  font-size: 1.6rem;
+}
+.navbar-nav li {
+  padding-right: .8rem;
+}
+.navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #1ebba3;
+}
+.navbar.solid {
+  background: rgba(0, 0, 0, 0.7)!important;
+  transition: background-color 1s ease 0s;
+}
+
+/*============= LANDING PAGE =============*/
+
+.home-inner {
+  background-image: url('img/works.jpg');
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+}
+.caption h1 {
+  color: white;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+.caption h3 {
+  color: white;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 2rem;
+}
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: .8rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: inline-block!important;
+}
+
+/*============= FEATURES SECTION =============*/
+
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.btn-sm {
+  border-width: medium;
+  border-radius: 0;
+  padding: .5rem 1.1rem;
+  font-size: .9rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+.btn-turquoise {
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+.btn-turquoise:hover,
+.btn-turquoise:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+.jumbotron {
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 1rem 0 3rem;
+}
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1.9rem;
+}
+.heading-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #1EBBA3;
+  margin: 0 auto 2rem;
+}
+.feature {
+  text-align: center;
+}
+.feature .fa-layers {
+  color: #1EBBA3;
+  margin: 0 auto;
+  width: 3.9rem;
+  height: 6rem;
+}
+.feature h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-bottom: .4rem;
+}
+.feature p {
+  font-size: 1.1rem;
+}
+
+
+/*============= FOOTER =============*/
+
+footer {
+  background: url('img/footer/footer.png') no-repeat;
+  /*background-color: #40474e;*/
+  background-size: cover;
+  color: white;
+}
+footer .row {
+  background-color: rgba(57, 63, 70, 0.85);
+  padding: 1rem 2rem 3rem;
+}
+footer img {
+  height: 2rem;
+  margin: 1.5rem 0;
+}
+footer a {
+  color: white;
+}
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
+footer svg.svg-inline--fa:hover {
+  color: #1ebba3!important;
+}
+footer h3 {
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+}
+
+/*============= FORMS =============*/
+
+.form-group {
+  margin-bottom: 1.3rem;
+}
+.form-control {
+  background-color: #53595f;
+  border-radius: 0;
+  border: .15rem solid #666b71;
+  color: white!important;
+  font-size: 1.1rem;
+}
+.form-control:focus {
+  background: #53595f;
+  border: .15rem solid #666b71;
+}
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #b2b5b8!important;
+}
+input.btn {
+  cursor: pointer;
+}
+hr.socket {
+  border-top: .2rem solid #666b71;
+  width: 100%;
+}
+
+/*============= TOP SCROLL =============*/
+
+.top-scroll svg.svg-inline--fa {
+  font-size: 3rem;
+  height: 1.7rem;
+  color: #53595f;
+  background: white;
+}
+a.top-scroll {
+  right: 1.2rem;
+  bottom: 1.2rem;
+  position: fixed;
+  opacity: .3;
+  z-index: 1000;
+  display: none;
+}
+a.top-scroll:hover {
+  opacity: .5;
+}
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 992px (lg) */
+@media (max-width: 991px) {
+  .caption h1 {
+    font-size: 3.5rem;
+    letter-spacing: .2rem;
+    padding-bottom: .8rem;
+  }
+  .caption h3 {
+    font-size: 2.2rem;
+    padding-bottom: 1.7rem;
+  }
+  .btn-lg {
+    padding: .7rem 1.2rem;
+    font-size: 1rem;
+  }
+  .narrow h1 {
+    font-size: 2.1rem;
+  }
+}
+
+/* Devices under 768px (md) */
+@media (max-width: 767px) {
+  .caption h1 {
+    font-size: 2.7rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+  .caption h3 {
+    font-size: 1.7rem;
+    padding-bottom: 1.2rem;
+  }
+  .btn-lg {
+    padding: .6rem 1.1rem;
+    font-size: 1rem;
+  }
+  .narrow h1 {
+    font-size: 1.8rem;
+  }
+  #fixed {
+    background-image: url('img/fixed/apple-mobile.png');
+  }
+  #fixed-2 {
+    background-image: url('img/fixed/office-mobile.png');
+  }
+  footer {
+    background: url('img/footer/footer-mobile.png') no-repeat;
+  }
+  
+  .top-scroll {
+    display: none!important;
+  }
+}
+
+/* Devices under 576px (sm) */
+@media (max-width: 575px) {
+  .caption h1 {
+    font-size: 1.9rem;
+    letter-spacing: .1rem;
+    padding-bottom: .4rem;
+  }
+  .caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+  }
+  .btn-lg {
+    padding: .4rem .9rem;
+    font-size: .9rem;
+  }
+  .narrow {
+    width: 85%;
+  }
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
